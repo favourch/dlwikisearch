@@ -3,3 +3,4 @@
 
 # How to Use:
 * run "npm install", to install all dependencies
+* Update config with your Africastalking Key and Username (Sandbox for testing)
