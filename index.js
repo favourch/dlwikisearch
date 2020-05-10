@@ -58,8 +58,8 @@ app.post(
       }
     } else if (val === "2" || (length === mark && txt[lessMark] === "2")) {
       mark++;
-      message += `Visit our Facebook page @: promo-daily12345
-      For suggestion, complaints and sponsorships, send us a mail @: stackdriveinc@gmail.com \n
+      message += `Visit our Facebook page @: promo-123456
+      For suggestion, complaints and sponsorships, send us a mail @: nomail@nomail.com \n
       0 to main menu
       \n\n`;
       endSession = false;
@@ -76,7 +76,7 @@ app.post(
 );
 
 app.get("/", (req, res) => {
-  res.send("Paddi Media Server is Live Again. All thanks to Heroku!!!");
+  res.send("Server is running.");
 });
 
 app.listen(config.PORT, () => {});
