@@ -19,7 +19,7 @@ app.post(
     if (val === "" || (length === mark && txt[lessMark] === "0")) {
       deepLink = 1;
       mark++;
-      message = `WELCOME TO PADDI SEARCH
+      message = `WELCOME TO Wiki SEARCH
       Searching the internet made easy and available for every one \n
       Sponsored:
       Available ad space \n\n`;
